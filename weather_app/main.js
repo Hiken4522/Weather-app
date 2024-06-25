@@ -46,7 +46,7 @@ function displayweather(data){
         case "Drizzle":
             wicon.innerHTML = `<img src=${mains[2]} id="wicon">`
             break
-        case "rain":
+        case "Rain":
             wicon.innerHTML = `<img src=${mains[4]} id="wicon">`
             break
         case "Snow":
