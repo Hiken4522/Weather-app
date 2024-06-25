@@ -1,4 +1,5 @@
-const apiKey = 'c32586d1314263ecc52a923eba2e1f2d'
+//Enter your apikey and you are set to go
+const apiKey = 'apiKey'
 const city = document.getElementById('city')
 const temp = document.getElementById('temp')
 const weather = document.getElementById('weather')
