@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <input type="text" id="wsearch" placeholder="City Name" value="Thiruvananthapuram">
+            <button id="search" onclick="getweather()"><img src="images/search.png" ></button>
+        </div>
+        <div id="weathericon">
+        </div>
+        <h1 id="temp"></h1>
+        <h2 id="city"></h2>
+        <div class="desc">
+            <div class="cont">
+                <img src="images/humidity.png" id="descicon">
+                <label id="humidity"></label><br>
+                <label class="name">Humidity</label>
+            </div>
+            <div class="cont">
+                <img src="images/wind.png" id="descicon">
+                <label id="windspeed"></label><br>
+                <label class="name2">Windspeed</label>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
